@@ -1,0 +1,93 @@
+.my-nav{
+    background-color: #ffffff;
+}
+body{
+    background-color: #ffffff; 
+}
+.my-card{
+    max-width: 100%;
+    height: 690px; 
+
+    background-color: #f0dade; 
+    border: none;
+}
+.my-subcard{
+    background-color: #faedef !important;
+    width: 55%; 
+    height: 490px; 
+    margin-top: 15%; 
+    margin-left: 70%;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.card-footer {
+    padding: .5rem 1rem;
+    background-color: rgba(0,0,0,.03);
+    border:none; 
+}
+.my-container{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.intro{
+    padding-top: 9%;
+    padding-left: 15%;
+}
+.hide-for-desk{
+    display: none;
+}
+.margin-s-e{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#heading{
+    font-size: 100px;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    text-align: center;
+}
+@media (max-width: 500px)
+{
+    #heading{
+        font-size: 50px;
+    }
+    .hide-for-desk{
+        display: inline;
+    }
+    .hide-for-mobile{
+        display:none;
+    }
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .margin-s-e{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .my-nav{
+        background-color: #ffffff;
+        display: inline;
+    }
+    .my-card{
+        width: 100%;
+        height: auto; 
+    
+        background-color: #f0dade; 
+        border: none;
+    } 
+    .my-subcard{
+        background-color: #faedef !important;
+        width: 95%; 
+        height: 490px; 
+        margin-top: 5%; 
+        margin-left: 5%;
+        border: none;
+    }
+    
+}

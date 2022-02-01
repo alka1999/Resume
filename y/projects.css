@@ -1,0 +1,44 @@
+body{
+    background-color: #f0dade;
+}
+.my-container{
+    width: 60%;
+    margin: auto;
+
+}
+.col-1{
+    width: 40%;
+    padding: 3%;
+}
+.col-2{
+    width: 100%;
+    margin:  10% auto;
+}
+a{
+    text-decoration: none;
+}
+@media (max-width: 500px){
+    .my-container{
+        width: 90%;
+        margin: auto;
+    
+    }
+    
+    .my-row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: inline-block;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+    .col-1{
+        width: 100%;
+        padding: 5%;
+    }
+    .col-2{
+        width: 100%;
+        margin:  10% auto;
+    }
+}

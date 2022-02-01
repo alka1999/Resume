@@ -1,0 +1,42 @@
+body{
+    background-color: #f0dade;
+}
+.my-container{
+    width: 50%;
+    margin: auto;
+
+}
+progress{
+    width: 100%;
+}
+
+.skills{
+    margin-left: 5%;
+}
+@media (max-width: 500px){
+    .my-container{
+        width: 90%;
+        margin: auto;
+    
+    }
+    .skills{
+        font-size: 15px;
+    }
+    .progress {
+        display: flex;
+        height: .6rem;
+        overflow: hidden;
+        font-size: .75rem;
+        background-color: #e9ecef;
+        border-radius: .25rem;
+    }
+    .my-row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: inline-block;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+}
